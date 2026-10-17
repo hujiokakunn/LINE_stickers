@@ -4,7 +4,7 @@
     ".github/workflows/tests.yml": "5a7e3f2005712acd41b4cc6c998b972c3e8b33d9f990157648c480ebefc37e61",
     ".gitignore": "90e832d8be963c872fe839533be51980d3ad1a341e2cc03c377bab6dcfdcb4f7",
     "AGENTS.md": "4a94f8e6044b8eef4edf55c74f072b1aa46bdf2e1e856fc0ef3038c2f9116140",
-    "README.md": "9852b004ac0c1d0204fb087949d123f453e91b791153d26292521d98c269d49a",
+    "README.md": "ee4ac388642f591d781a3b930f17b287823843d7cf2107ba4547871cd1d39dfc",
     "SPEC.md": "cf3fbf9236c6d343fe9db38b18b75557202cdd51120cdee7cda971bf3a8fd422",
     "requirements.txt": "a6aa4945334d7e5c05151676e8dfca726780a9e4d154310a34df06f4137f1c92",
     "run.py": "2a6f021b9e9865e907ff4e3c7222a8f3f6a90ab8415b29dc60cecea96d92ba93",
@@ -14,7 +14,7 @@
     "scripts/tools/line_sticker/animation_validate.py": "274fed9efb22b13d37db4c89dd114032b911b5ecbfc8b76c2037df5fbb6ed387",
     "scripts/tools/line_sticker/compose.py": "a94501f0df71e3623bc41fb1f21cd154e2909739189db70f3a30590a5b258c68",
     "scripts/tools/line_sticker/motion_validate.py": "fffc614d0fb99c146e00fb4d212df82e0d01124e4f15d737780a84a4c1eb722a",
-    "scripts/tools/line_sticker/spec.py": "aa13477cf597f49958d353e680e610401c52032da4d88ff0bcfab4cf85d1a475",
+    "scripts/tools/line_sticker/spec.py": "f5624aff49cfb21a0ad36eaccbd973dacea647c0f7ec7db7eaa15dba3c4ece65",
     "scripts/tools/line_sticker/validate.py": "bda6e4546dde88598294c8abeb2a81e987c62c1361a8b30eb9562f8992877472",
     "tests/test_harness.py": "93b530afad54385680491f4ea5a568a5505c3e53ec58a657697d8848a28bb207",
     "tests/test_motion.py": "67254b0e5c0f1764ebd9c9fc6eac443eb9471bbf012f1db97c1cdea85440570e"
@@ -24,5 +24,6 @@
     "phrase collections",
     "pose catalogs",
     "production history"
-  ]
+  ],
+  "hash_basis": "Git blob bytes; text line endings are normalized by Git"
 }
