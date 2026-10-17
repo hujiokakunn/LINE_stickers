@@ -1,0 +1,11 @@
+private/
+work/
+submit/
+stale/
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.zip
+*review.json
