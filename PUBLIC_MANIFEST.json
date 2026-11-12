@@ -3,16 +3,19 @@
   "files": {
     ".github/workflows/tests.yml": "5a7e3f2005712acd41b4cc6c998b972c3e8b33d9f990157648c480ebefc37e61",
     ".gitignore": "90e832d8be963c872fe839533be51980d3ad1a341e2cc03c377bab6dcfdcb4f7",
-    "AGENTS.md": "4a94f8e6044b8eef4edf55c74f072b1aa46bdf2e1e856fc0ef3038c2f9116140",
-    "README.md": "ee4ac388642f591d781a3b930f17b287823843d7cf2107ba4547871cd1d39dfc",
-    "SPEC.md": "cf3fbf9236c6d343fe9db38b18b75557202cdd51120cdee7cda971bf3a8fd422",
+    "AGENTS.md": "269efa8dbf1a4704f369119d4c7701e662bad4fa31f7b59ef38822704c9b5ac6",
+    "LICENSE": "87a556136301985c840b1915e8e73fe3115d49df65a7c2fb7630b5a7b110612c",
+    "PACKAGING.md": "852a61e98881386ad11e95302bf9e59c978fad9a63f53b76dcb6d614c9f36379",
+    "README.md": "3a7fb7ebfaa5474dab3154d6ba46abdb4b4e97d65a222e8b1886e4ce705bcc45",
+    "SPEC.md": "cc7dfe1cb232800b5b2b6d4f259dc5bcd4c228b4b8cfc7845a21002341a00284",
+    "WORKFLOW.md": "277a99f6dd18ecb0e58c726c578c1d98ab24cbbcb689334e42f698382dfb70ee",
     "requirements.txt": "a6aa4945334d7e5c05151676e8dfca726780a9e4d154310a34df06f4137f1c92",
     "run.py": "2a6f021b9e9865e907ff4e3c7222a8f3f6a90ab8415b29dc60cecea96d92ba93",
     "scripts/_console.py": "3b6f451024a0f8a09e4ec6c3e951a58c54f6e15d6873618127b5c9b92566f58b",
-    "scripts/tools/line_sticker/MOTION_QUALITY.md": "8da5336f8eb090d1e49cbdc74d65074a8b8424067657248b4f893e11ba440855",
+    "scripts/tools/line_sticker/MOTION_QUALITY.md": "d02982bdd797556612a19e42ea2781dd20671d9a3861b11d1e12ff5abd4cd051",
     "scripts/tools/line_sticker/__init__.py": "e516d3b6b80353c34f71f8ae74923a75f2072202b48bcb06023896e3148e2174",
     "scripts/tools/line_sticker/animation_validate.py": "274fed9efb22b13d37db4c89dd114032b911b5ecbfc8b76c2037df5fbb6ed387",
-    "scripts/tools/line_sticker/compose.py": "a94501f0df71e3623bc41fb1f21cd154e2909739189db70f3a30590a5b258c68",
+    "scripts/tools/line_sticker/compose.py": "1a5c77807376d3fda0690d99ba1f471cf0447802933a1e907145e8a08b04632b",
     "scripts/tools/line_sticker/motion_validate.py": "fffc614d0fb99c146e00fb4d212df82e0d01124e4f15d737780a84a4c1eb722a",
     "scripts/tools/line_sticker/spec.py": "f5624aff49cfb21a0ad36eaccbd973dacea647c0f7ec7db7eaa15dba3c4ece65",
     "scripts/tools/line_sticker/validate.py": "bda6e4546dde88598294c8abeb2a81e987c62c1361a8b30eb9562f8992877472",
@@ -25,5 +28,5 @@
     "pose catalogs",
     "production history"
   ],
-  "hash_basis": "Git blob bytes; text line endings are normalized by Git"
+  "hash_basis": "UTF-8 file bytes with LF line endings"
 }

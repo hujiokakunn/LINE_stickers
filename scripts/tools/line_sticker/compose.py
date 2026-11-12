@@ -250,9 +250,15 @@ def draw_text(canvas: Image.Image, text: str, band: tuple[int, int, int, int],
     font, lines, size = _fit_text(text, x1 - x0, y1 - y0, style)
     stroke = max(1, int(size * style.stroke_ratio))
     line_h = int(size * 1.18)
-    total_h = line_h * len(lines)
-    cy = y0 + ((y1 - y0) - total_h) // 2
     draw = ImageDraw.Draw(canvas)
+    # Pillow's default text anchor is not the top of the visible glyphs.
+    # Center the actual ink bounds, including descenders and stroke, within
+    # the band so Latin or other scripts do not leak into the outer margin.
+    boxes = [draw.textbbox((0, i * line_h), line, font=font, stroke_width=stroke)
+             for i, line in enumerate(lines)]
+    ink_top = min(box[1] for box in boxes)
+    ink_bottom = max(box[3] for box in boxes)
+    cy = y0 + ((y1 - y0) - (ink_bottom - ink_top)) // 2 - ink_top
     for i, line in enumerate(lines):
         w = font.getlength(line)
         cx = x0 + ((x1 - x0) - w) / 2
